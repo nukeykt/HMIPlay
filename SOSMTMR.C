@@ -338,7 +338,7 @@ loc_113D8:
 
 VOID  sosMIDISetTrackState(WORD a1, WORD a2, WORD a3)
 {
-    BYTE v1c[2];
+    BYTE v1c[3];
     WORD v4;
     if (_sSOSMIDISongHeader[a1]->bCtrlRestore[108])
     {
